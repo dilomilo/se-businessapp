@@ -8,6 +8,8 @@ package com.businessapp.customer;
 import com.businessapp.model.IndividualCustomer;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.is;
+import java.util.Date;
 
 /**
  *
@@ -15,18 +17,19 @@ import static org.junit.Assert.*;
  */
 public class IndividualCustomerTest {
     
-    public IndividualCustomerTest() {
-    }
+    
+    IndividualCustomer a= new IndividualCustomer();
+    
 
     /**
      * Test of getFirstName method, of class IndividualCustomer.
      */
     @Test
     public void testGetFirstName() {
-        IndividualCustomer a = new IndividualCustomer();
+    
         a.setFirstName("Meyer");
-        final String testStr="Meyer";
-        assertTrue(testStr.equals(a.getFirstName()));
+        //final String testStr="Meyer";
+        assertEquals("Meyer",a.getFirstName());
         
     }
 
@@ -39,16 +42,37 @@ public class IndividualCustomerTest {
     }
     
     public void testLeererString(){
-        IndividualCustomer a = new IndividualCustomer();
+        
         a.setFirstName("");
         assertTrue(a.getFirstName().isEmpty());
     }
     
     @Test
     public void testNull(){
-    IndividualCustomer a= new IndividualCustomer();
+    
     a.setFirstName(null);
     assertTrue(a.getFirstName()==null);
     }
     
+    @Test
+    public void testId() {
+        
+        a.setId("1234");
+	assertEquals("1234",a.getId());
+	}
+
+
+    public void testCreated() {
+        
+        
+        
+        
+        
+            
+             a.setCreated(new Date(1989,8,21));
+             assertEquals(new Date(1989,8,21),a.getCreated());
+	}
+
+	
 }
+
