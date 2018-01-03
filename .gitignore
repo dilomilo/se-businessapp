@@ -5,3 +5,7 @@ archive
 info.txt
 src/main/java/com/businessapp/demo
 target
+.DS_Store
+/nbproject/
+.idea
+nbactions.xml
