@@ -1,0 +1,43 @@
+Aufgaben zur Übung Software Engineering SE-1					      E1
+User Stories für Ausleihsystem, Punkte: 4								
+
+Name:	Aylin Browarzik (863391) , Dilek Arciltekin (855687)	
+
+Geschäftskontext:  Baumarkt
+Die folgenden Aufgaben sollen sich auf den von Ihren gewählten Geschäftskontext beziehen (z.B. Fahr-radverleih, Autowerkstatt, Reisebüro, Tauschbörse, Fußballverein usw.).
+Sie können das Übungsblatt als Vorlage ausfüllen und abgeben.
+Scenario: Der Eigentümer oder Betreiber wünscht sich eine online-Lösung, mit der im jeweiligen Kontext geeignete Dinge an Kunden/Teilnehmer/Gäste gegen Gebühr ausgeliehen werden können. Beispiele sind Ausleihen von Spezialwerkzeugen einer Autowerkstatt über ein Wochenende, eine Flugzeug-Transportbox für ein Mountain Bike von einem Reisebüro oder asiatische Kochgeräte vom Bioladen.
+Der Eigentümer oder Betreiber möchte gern, dass ein Teil der zur Ausleihe angebotenen Dinge nur seinem Geschäft verbundenen Kunden angeboten werden (z.B. nur, wer eine Reise bei ihm gebucht hat, kann die Mountain Bike-Box ausleihen). Andere Artikel werden auch der Allgemeinheit angeboten.
+Zudem soll eine Reservierung möglich sein, damit Leihgegenstände ggf. rechtzeitig beschafft werden können, z.B. als Leihgabe von einem Drittanbieter. Falls ausgebucht und nicht beschaffbar, sollen sie für den Zeitraum als nicht mehr verfügbar markiert werden. Die Leihgebühr soll sich nach Artikel und Leihtagen berechnen und ebenfalls online bezahlbar sein. Für Geschäftskunden ist eine Rechnung mit Mehrwertsteuerausweis erforderlich. Abholung und Rückgabe sollen verfolgbar sein.
+1. Nennen Sie 5 Artikel, die in Ihrem Kontext für die Ausleihe sinnvoll sind.
+Bohrmaschinen, Laubbläser, Rasenmäher, Gartenutensilien, Akkuschrauber
+2 Benennen Sie die Stakeholder und Akteure, die in Ihrem Kontext eine Rolle spielen.		[ _ /0.5]
+Kunden, Mitarbeiter, Filialleiter/Eigentümer
+3. Geben Sie eine kurze Problemdefinition: 							[ _ /0.5]
+Unser Problem war , dass Kunden Geräte ausleihen, aber vergessen diese Rechtzeitig zurück zu geben. Verfügbarkeit der ausleihbaren Gegenstände wird nicht im System erfasst.
+
+4. Formulieren Sie die wichtigsten Ziele der angestrebten Lösung: 				[ _ /0.5]
+Ziel ist es, dass die Gegenstände die ausgeliehen wurden detailliert im System erfasst und aktualisiert werden (z.b. welcher Mitarbeiter es verleiht). Per Mail sollen die Kunden über den Rückgabe Termin informiert werden.
+
+5. Beschreiben Sie, was Sie in fiktiven Interviews mit den Stakeholdern bzw. Akteuren als	[ _ /2 ]
+deren Wünsche	oder Erwartungen an das Ausleihsystem erfahren haben. Verwenden Sie
+die Form von User Stories und versuchen Sie, das oben beschrieben Scenario abzudecken.
+Als Zielvorgabe sollten ca. 10-15 User Stories entstehen.
+
+#01 – Ein Kunde möchte Auskunft über die ausleihbaren Gegenstände mit Preisen erhalten.
+#02 – Ein Kunde möchte den genauen Bestand der Ware erfahren.
+#03 - Ein Kunde will direkt im Laden ausleihen.
+#04 – Ein Mitarbeiter will Auskunft über die Dauer der Ausleihe.
+#05 – Ein Mitarbeiter möchte sich mit seinen eigenen Daten im System einloggen. 
+#06 – Ein Mitarbeiter möchte,dass die Anzahl des Bestandes sich automatisch ändert.
+#07 – Ein Filialleiter will sehen, welcher Mitarbeiter, was verleiht hat.
+#08 – Ein Filialleiter will den täglichen Umsatz sehen.
+#09 -  Ein Mitarbeiter will einen Kunden kontaktieren können.
+#10 – Ein Kunde möchte den Filialleiter kontaktieren.
+#11- Ein Kunde möchte über Aktionen informiert werden.
+
+
+6. Checken Ihre Aussagen zu 1. - 5. als Datei UserStories.txt im Verzeichnis		[ _ /0.5]
+requirements in Ihr	git-Repository ein.
+
+
